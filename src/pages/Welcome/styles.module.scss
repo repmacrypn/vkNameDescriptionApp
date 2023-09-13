@@ -1,0 +1,17 @@
+@import 'src/styles/resourses/variables.scss';
+
+.greetingsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    padding: 0 5px;
+    font-size: $font-size-xxl;
+    text-align: center;
+    line-height: 1.5;
+}

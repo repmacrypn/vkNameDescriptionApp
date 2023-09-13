@@ -1,0 +1,12 @@
+@import 'src/styles/resourses/variables.scss';
+
+.congratsContent {
+    position: relative;
+    max-width: 800px;
+    min-height: 100vh;
+    padding: 80px 0 50px;
+    margin: 0 auto;
+    text-align: center;
+    background: url('../../assets/backgroundImg.jpg') no-repeat 0 0/100% 100%;
+    color: $yellow-hover;
+}

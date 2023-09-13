@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+// === FONT-WEIGHT === //
+
+$font-family-main: 'Roboto', sans-serif;
+$font-family-title: 'Lora', serif;
+
+// === FONT-WEIGHT === //
+
+$font-weight-main: 400;
+$font-weight-xl: 500;
+
+// === FONT-SIZE === //
+
+$font-main: 16px;
+$font-size-xl: 22px;
+$font-size-xxl: 24px;
+
+// === LINE_HEIGHTS === //
+
+$line-height-main-xxl: 56.25px;
+
+// === COLORS === //
+
+$MainFont: #344182;
+$Background: #FFF4C2;
+$spareBack: rgb(248, 177, 177);
+$input-bgc: #f5e18a;
+$main-yellow: #853636;
+$yellow-hover: #2b0f0f;
+
+// === WIDTH_HEIGHT === //
+
+$width-full: 100%;
+$width-btn: 90%;
+$max-btn-width: 400px;
+$min-width: 300px;
+$max-input-width: 500px;
+
+$button-height: 48px;
+$input-height: 32px;
+
+// === MARGIN === //
+
+$margin-gap: 32px;
+$margin-gap: 20px;
+
+// === BORDER === //
+
+$border-radius-main: 8px;
+$border-radius-xs: 6px;
+$border-main: 1px solid $main-yellow;

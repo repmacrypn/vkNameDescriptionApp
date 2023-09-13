@@ -1,0 +1,14 @@
+@import '../../styles/resourses/variables.scss';
+@import '../../styles/resourses/mixins.scss';
+
+.inputWrapper {
+    @include input-adaptive-default;
+}
+
+.label {
+    display: block;
+}
+
+.input {
+    @include input-default;
+}

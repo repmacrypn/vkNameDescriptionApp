@@ -1,0 +1,22 @@
+@import './variables.scss';
+
+@mixin input-default() {
+    width: $width-full;
+    min-width: $min-width;
+    max-width: $max-input-width;
+    height: $input-height;
+    padding: 0 5px;
+    margin: 15px 0;
+    border-radius: $border-radius-xs;
+    border: $border-main;
+    background-color: $input-bgc;
+    color: $MainFont;
+}
+
+@mixin input-adaptive-default() {
+    width: 40%;
+
+    @media (min-width:320px) and (max-width:780px) {
+        width: auto;
+    }
+}

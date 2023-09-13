@@ -1,0 +1,32 @@
+@import 'src/styles/resourses/variables.scss';
+
+.navButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: $border-radius-main;
+    text-align: center;
+    font-size: $font-main;
+    font-weight: $font-weight-xl;
+    color: $Background;
+
+    &:active {
+        transform: translateY(0.0625rem);
+    }
+}
+
+.greetings {
+    width: $width-btn;
+    height: $button-height;
+    max-width: $max-btn-width;
+    background-color: $main-yellow;
+
+    &:hover {
+        background-color: $yellow-hover;
+    }
+
+    @media (min-width:320px) and (max-width:400px) {
+        width: $width-full;
+    }
+}
