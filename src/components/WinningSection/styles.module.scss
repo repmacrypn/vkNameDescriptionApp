@@ -1,29 +1,29 @@
 @import 'src/styles/resourses/variables.scss';
 
 .data {
-    margin-top: 60px;
-    &>div {
-        margin: 15px 8px;
-    }
+    margin: 30px 0 60px;
 }
 
 .content {
     padding: 0 15px;
 }
 
-.image {
-    img {
-        border-radius: $border-radius-main;
-    }
-}
-
 .name{
+    margin: 0 auto;
+    max-width: 300px;
+    overflow-wrap: break-word;
     font-size: 36px;
     letter-spacing: 1px;
     color: rgb(210, 30, 30);
 }
 
 .curName{
-    margin: 15px 0;
+    font-size: 24px !important;
+    margin: 25px 0;
     font-size: 22px; 
+}
+
+.firstLetter{
+    font-size: 30px;
+    font-style: italic;
 }

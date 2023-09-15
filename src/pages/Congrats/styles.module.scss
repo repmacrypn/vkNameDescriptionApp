@@ -5,6 +5,9 @@
     background-color: $spareBack;
 }
 
-.congratsContent{
-    margin-top: 50px;
+.imgWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 40px;
 }
