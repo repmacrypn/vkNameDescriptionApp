@@ -5,7 +5,10 @@
 }
 
 .content {
+    display: inline-block;
+    margin: 0 auto 30px;
     padding: 0 15px;
+    text-align: left;
 }
 
 .name{
@@ -26,4 +29,9 @@
 .firstLetter{
     font-size: 30px;
     font-style: italic;
+}
+
+.sign{
+    display: block;
+    margin: 0 auto;
 }
