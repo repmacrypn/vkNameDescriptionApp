@@ -7,27 +7,31 @@
 .content {
     display: inline-block;
     margin: 0 auto 30px;
-    padding: 0 15px;
+    padding:0 0 0 29px;
     text-align: left;
 }
 
 .name{
+    padding: 0 30px;
     margin: 0 auto;
-    max-width: 300px;
     overflow-wrap: break-word;
     font-size: 36px;
     letter-spacing: 1px;
     color: rgb(210, 30, 30);
 }
 
-.curName{
-    font-size: 24px !important;
-    margin: 25px 0;
+div.curName{
+    display: block;
+    margin: 25px auto;
     font-size: 22px; 
+
+    @media (min-width:320px) and (max-width:448px) {
+        font-size: 20px !important;
+    }
 }
 
 .firstLetter{
-    font-size: 30px;
+    font-size: 24px;
     font-style: italic;
 }
 

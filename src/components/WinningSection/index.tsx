@@ -18,7 +18,7 @@ export const Section = () => {
                 {qualities[l] ?
                     //подставляем под каждую букву введенного имени захардкоженное случайное существительное
                     //и приписываем рандомное количество процентов
-                    <span>
+                    <span className={styles.listName}>
                         {qualities[l][Math.floor(Math.random() * qualities[l]?.length)]}:{' '}
                         {Math.floor(Math.random() * 101) + '%'}
                     </span> :
